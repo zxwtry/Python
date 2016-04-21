@@ -6,6 +6,9 @@
  */
 package getmsg;
 
+import javax.xml.namespace.QName;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
 
 /*
  *  PublishProductServiceStub java implementation
@@ -1201,6 +1204,12 @@ public class PublishProductServiceStub extends org.apache.axis2.client.Stub {
                 return object;
             }
         } //end of factory class
+
+		@Override
+		public XMLStreamReader getPullParser(QName arg0) throws XMLStreamException {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     public static class GetPublishModel implements org.apache.axis2.databinding.ADBBean {
@@ -1687,6 +1696,12 @@ public class PublishProductServiceStub extends org.apache.axis2.client.Stub {
                 return object;
             }
         } //end of factory class
+
+		@Override
+		public XMLStreamReader getPullParser(QName arg0) throws XMLStreamException {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     public static class ExtensionMapper {
@@ -2122,6 +2137,12 @@ public class PublishProductServiceStub extends org.apache.axis2.client.Stub {
                 return object;
             }
         } //end of factory class
+
+		@Override
+		public XMLStreamReader getPullParser(QName arg0) throws XMLStreamException {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     public static class GetPublishStringResponse implements org.apache.axis2.databinding.ADBBean {
@@ -2543,6 +2564,12 @@ public class PublishProductServiceStub extends org.apache.axis2.client.Stub {
                 return object;
             }
         } //end of factory class
+
+		@Override
+		public XMLStreamReader getPullParser(QName arg0) throws XMLStreamException {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     public static class SimpleModel implements org.apache.axis2.databinding.ADBBean {
@@ -3045,5 +3072,11 @@ public class PublishProductServiceStub extends org.apache.axis2.client.Stub {
                 return object;
             }
         } //end of factory class
+
+		@Override
+		public XMLStreamReader getPullParser(QName arg0) throws XMLStreamException {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 }
