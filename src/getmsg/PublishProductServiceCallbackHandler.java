@@ -39,6 +39,36 @@ public abstract class PublishProductServiceCallbackHandler {
     }
 
     /**
+     * auto generated Axis2 call back method for getAllProducts method
+     * override this method for handling normal response from getAllProducts operation
+     */
+    public void receiveResultgetAllProducts(
+        getmsg.PublishProductServiceStub.GetAllProductsResponse result) {
+    }
+
+    /**
+     * auto generated Axis2 Error handler
+     * override this method for handling error response from getAllProducts operation
+     */
+    public void receiveErrorgetAllProducts(java.lang.Exception e) {
+    }
+
+    /**
+     * auto generated Axis2 call back method for getListOfProducts method
+     * override this method for handling normal response from getListOfProducts operation
+     */
+    public void receiveResultgetListOfProducts(
+        getmsg.PublishProductServiceStub.GetListOfProductsResponse result) {
+    }
+
+    /**
+     * auto generated Axis2 Error handler
+     * override this method for handling error response from getListOfProducts operation
+     */
+    public void receiveErrorgetListOfProducts(java.lang.Exception e) {
+    }
+
+    /**
      * auto generated Axis2 call back method for getPublishString method
      * override this method for handling normal response from getPublishString operation
      */
