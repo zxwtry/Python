@@ -21,6 +21,7 @@ if __name__=="__main__":
     t = BinaryTree(BinaryTree("a", "b"), BinaryTree("c", "d"))
     print(t.right.left)
     #output: c
+
     
 if __name__=="__main__":
     t = MultiwayTree(MultiwayTree("a", MultiwayTree("b", MultiwayTree("c", MultiwayTree("d")))));
