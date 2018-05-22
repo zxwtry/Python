@@ -58,5 +58,3 @@ class Solution2(object):
             l[i].next = None if i == le-1 else l[i+1]
         return l[0]
 
-
-
